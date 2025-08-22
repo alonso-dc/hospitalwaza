@@ -16,7 +16,7 @@ public class DoctorService {
     private DoctorRepository doctorRepository;
 
     public Doctor crearDoctor(Doctor doctor) {
-        // Puedes agregar validaciones acá si quieres
+
         return doctorRepository.save(doctor);
     }
 
